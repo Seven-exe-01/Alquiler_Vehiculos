@@ -1,0 +1,19 @@
+from enum import Enum
+
+class TipoVehiculo(Enum):
+        AUTO="AUTO"
+        CAMIONETA="CAMIONETA"
+        MOTO="MOTO"
+
+class EstadoVehiculo(Enum):
+    DISPONIBLE="DISPONIBLE"
+    RESERVADO="RESERVADO"
+    EN_ALQUILER="EN_ALQUILER"
+    FUERA_DE_SERVICIO="FUERA_DE_SERVICIO"
+
+class EstadoReserva(Enum):
+    SOLICITADA="SOLICITADA"
+    CONFIRMADA="CONFIRMADA"
+    EN_CURSO="EN_CURSO"
+    FINALIZADA="FINALIZADA"
+    CANCELADA="CANCELADA"
